@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: linear-gradient(to right, black, white);
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c75006;
+}
+
+header h1 {
+    color: #c75006;
+}
+
+.navbar ul {
+    text-decoration: none;
+    padding: 1.05rem;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 0.75rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    color: #c75006;
+}
+
+/* About Me Section */
+
+.about-me {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex: wrap;
+    padding: 2rem;
+}
+
+.about-me h2 {
+    color: #c75006;
+}
+
+/* Projects Sections*/
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.projects h2 {
+    color: #c75006;
+}
+
+.projects li {
+    padding: 0.5rem;
+}
+
+/* Skills section */
+
+.skills {
+    display: block;
+    padding: 2rem;
+}
+
+.skills h2 {
+    color: #c75006;
+}
+
+.skills-container {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.skills-container li {
+    font-size: 2rem;
+    width: 2rem;
+    margin-top: var(--spacing-1);
+    list-style-type: none;
+}
+
+.skills-container svg {
+
+}
+
+.skills-container h1 {
+    color: #c75006;
+}
+
+.skills-container img {
+    
+}
